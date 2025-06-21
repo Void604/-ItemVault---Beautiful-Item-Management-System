@@ -1,77 +1,97 @@
-# ItemVault - Beautiful Item Management System
+<h1 align="center">ItemVault - Beautiful Item Management System</h1>
+<p align="center">A modern, production-ready item management web application built with <strong>React</strong>, <strong>TypeScript</strong>, and <strong>Tailwind CSS</strong>. Features a stunning dark theme with glass morphism effects and smooth animations.</p>
 
-A modern, production-ready item management web application built with React, TypeScript, and Tailwind CSS. Features a stunning dark theme with glass morphism effects and smooth animations.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-blue?logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-4.x-blue?logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/TailwindCSS-3.x-38bdf8?logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite-4.x-646cff?logo=vite&logoColor=white" />
+</p>
+
+---
 
 ## ✨ Features
 
-### Core Functionality
-- **Add Items**: Comprehensive form with item name, type, description, and multiple image uploads
-- **View Items**: Beautiful gallery view with search, filtering, and grid/list toggle
-- **Item Details**: Interactive modal with image carousel and enquiry functionality
-- **Persistent Storage**: Items saved to localStorage for persistence across sessions
+<details>
+  <summary><strong>Core Functionality</strong></summary>
 
-### Design & UX
-- **Dark Theme**: Elegant slate color palette with purple/blue accents
-- **Glass Morphism**: Modern translucent components with backdrop blur effects
-- **Responsive Design**: Optimized for all screen sizes (mobile, tablet, desktop)
-- **Smooth Animations**: Micro-interactions and hover effects throughout
-- **Professional Typography**: Clean, readable font hierarchy
+- <b>Add Items</b>: Comprehensive form with item name, type, description, and multiple image uploads
+- <b>View Items</b>: Beautiful gallery view with search, filtering, and grid/list toggle
+- <b>Item Details</b>: Interactive modal with image carousel and enquiry functionality
+- <b>Persistent Storage</b>: Items saved to localStorage for persistence across sessions
+</details>
 
-### Advanced Features
-- **Image Carousel**: Navigate through multiple product images
-- **Search & Filter**: Real-time search across item name, type, and description
-- **View Modes**: Toggle between grid and list layouts
-- **Enquiry System**: Simulated email sending for customer inquiries
-- **Success Notifications**: User feedback for all actions
-- **Form Validation**: Comprehensive client-side validation
+<details>
+  <summary><strong>Design & UX</strong></summary>
+
+- <b>Dark Theme</b>: Elegant slate color palette with purple/blue accents
+- <b>Glass Morphism</b>: Modern translucent components with backdrop blur effects
+- <b>Responsive Design</b>: Optimized for all screen sizes (mobile, tablet, desktop)
+- <b>Smooth Animations</b>: Micro-interactions and hover effects throughout
+- <b>Professional Typography</b>: Clean, readable font hierarchy
+</details>
+
+<details>
+  <summary><strong>Advanced Features</strong></summary>
+
+- <b>Image Carousel</b>: Navigate through multiple product images
+- <b>Search & Filter</b>: Real-time search across item name, type, and description
+- <b>View Modes</b>: Toggle between grid and list layouts
+- <b>Enquiry System</b>: Simulated email sending for customer inquiries
+- <b>Success Notifications</b>: User feedback for all actions
+- <b>Form Validation</b>: Comprehensive client-side validation
+</details>
+
+---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js (v18 or higher)
-- npm or yarn
+
+- <img src="https://img.shields.io/badge/Node.js-v18+-339933?logo=node.js&logoColor=white" /> Node.js (v18 or higher)
+- <img src="https://img.shields.io/badge/npm-v9+-CB3837?logo=npm&logoColor=white" /> or <img src="https://img.shields.io/badge/yarn-1.x-2C8EBB?logo=yarn&logoColor=white" /> Yarn
 
 ### Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd itemvault
-   ```
+```bash
+# 1. Clone the repository
+git clone <repository-url>
+cd itemvault
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
+# 2. Install dependencies
+npm install
 
-3. **Start the development server**
-   ```bash
-   npm run dev
-   ```
+# 3. Start the development server
+npm run dev
+```
 
-4. **Open your browser**
-   Navigate to `http://localhost:5173`
+Then open your browser at [http://localhost:5173](http://localhost:5173).
 
-### Building for Production
+#### Building for Production
 
 ```bash
 npm run build
 ```
-
 The built files will be in the `dist` folder, ready for deployment.
+
+---
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React 18 with TypeScript
-- **Styling**: Tailwind CSS
-- **Routing**: React Router DOM
-- **Icons**: Lucide React
-- **Build Tool**: Vite
-- **Linting**: ESLint with TypeScript support
+| Category      | Technology                          |
+|---------------|-------------------------------------|
+| Frontend      | ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white) 18, TypeScript |
+| Styling       | ![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38bdf8?logo=tailwindcss&logoColor=white) |
+| Routing       | React Router DOM                    |
+| Icons         | Lucide React                        |
+| Build Tool    | Vite                                |
+| Linting       | ESLint (TypeScript support)         |
+
+---
 
 ## 📁 Project Structure
 
-```
+```text
 src/
 ├── components/          # Reusable UI components
 │   ├── Navigation.tsx   # Main navigation bar
@@ -89,28 +109,33 @@ src/
 └── App.tsx             # Main app component with routing
 ```
 
+---
+
 ## 🎨 Design System
 
-### Color Palette
-- **Primary**: Slate (900, 800, 700) for backgrounds
-- **Accent**: Purple (600, 500, 400) and Blue (600, 500, 400)
-- **Text**: White, Slate (300, 400, 500)
-- **Success**: Green (400, 500, 600)
-- **Error**: Red (400, 500, 600)
+**Color Palette**  
+- <b>Primary</b>: Slate (900, 800, 700) for backgrounds  
+- <b>Accent</b>: Purple (600, 500, 400) and Blue (600, 500, 400)  
+- <b>Text</b>: White, Slate (300, 400, 500)  
+- <b>Success</b>: Green (400, 500, 600)  
+- <b>Error</b>: Red (400, 500, 600)  
 
-### Typography
-- **Headings**: Font weights 600-700 (semibold-bold)
-- **Body**: Font weight 400-500 (normal-medium)
-- **Captions**: Font weight 400 with smaller sizes
+**Typography**  
+- <b>Headings</b>: 600-700 font weight (semibold-bold)
+- <b>Body</b>: 400-500 font weight (normal-medium)
+- <b>Captions</b>: 400 font weight, smaller sizes
 
-### Spacing
-- Consistent 8px base spacing system
-- Generous padding and margins for readability
-- Proper component spacing with gap utilities
+**Spacing**  
+- Consistent 8px base spacing
+- Generous padding and margins
+- Proper component gap utilities
+
+---
 
 ## 🔧 Customization
 
 ### Adding New Item Types
+
 Edit `src/types/Item.ts` and add new types to the `ITEM_TYPES` array:
 
 ```typescript
@@ -127,38 +152,43 @@ export const ITEM_TYPES: ItemType[] = [
 ```
 
 ### Modifying Colors
+
 Update the Tailwind config or use CSS custom properties for easy theme customization.
 
 ### Adding New Features
-The modular architecture makes it easy to add new features:
+
 - Add new pages in `src/pages/`
 - Create reusable components in `src/components/`
 - Add new routes in `src/App.tsx`
 
+---
+
 ## 🌟 Key Features Explained
 
-### Item Management
-- **Local Storage**: Items persist across browser sessions
-- **Image Handling**: Support for cover image + multiple additional images
-- **Form Validation**: Comprehensive validation with user-friendly error messages
+**Item Management**
+- <b>Local Storage</b>: Items persist across browser sessions
+- <b>Image Handling</b>: Cover image + multiple additional images
+- <b>Form Validation</b>: User-friendly error messages
 
-### User Experience
-- **Responsive Grid**: Adapts from 1 column (mobile) to 4 columns (desktop)
-- **Search**: Real-time filtering across all item properties
-- **Modal Navigation**: Smooth modal with backdrop blur and escape key support
+**User Experience**
+- <b>Responsive Grid</b>: 1 column (mobile) to 4 columns (desktop)
+- <b>Search</b>: Real-time filtering across all properties
+- <b>Modal Navigation</b>: Smooth modal with blur & esc support
 
-### Performance
-- **Optimized Images**: Proper error handling and fallback images
-- **Efficient Rendering**: Minimal re-renders with proper React patterns
-- **Fast Navigation**: Client-side routing with React Router
+**Performance**
+- <b>Optimized Images</b>: Error handling, fallback images
+- <b>Efficient Rendering</b>: Minimal re-renders with React patterns
+- <b>Fast Navigation</b>: Client-side routing
+
+---
 
 ## 📱 Browser Support
 
-- Chrome/Edge 90+
-- Firefox 88+
-- Safari 14+
-- iOS Safari 14+
-- Android Chrome 90+
+| Chrome/Edge | Firefox | Safari | iOS Safari | Android Chrome |
+|-------------|---------|--------|------------|---------------|
+| 90+         | 88+     | 14+    | 14+        | 90+           |
+
+---
 
 ## 🤝 Contributing
 
@@ -168,17 +198,19 @@ The modular architecture makes it easy to add new features:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+---
 
 ## 🙏 Acknowledgments
 
-- Images from Pexels for demo content
-- Lucide React for beautiful icons
-- Tailwind CSS for the design system
-- React ecosystem for the solid foundation
+- [Pexels](https://pexels.com) for demo images
+- [Lucide React](https://lucide.dev) for icons
+- [Tailwind CSS](https://tailwindcss.com) for the design system
+- [React](https://react.dev) ecosystem for the foundation
 
 ---
 
-Built with ❤️ for modern web experiences
+## 👤 Author
+
+**Aryan Kashyap**  
+📧 aryankashyap7899@gmail.com  
+[![GitHub](https://img.shields.io/badge/GitHub-@Void604-181717?logo=github)](https://github.com/Void604)
