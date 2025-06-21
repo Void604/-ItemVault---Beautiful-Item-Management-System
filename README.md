@@ -2,6 +2,11 @@
 <p align="center">A modern, production-ready item management web application built with <strong>React</strong>, <strong>TypeScript</strong>, and <strong>Tailwind CSS</strong>. Features a stunning dark theme with glass morphism effects and smooth animations.</p>
 
 
+<p align="center">
+  <strong style="font-size:1.25rem;">
+    🚀 LIVE DEMO: <a href="https://item-vault.netlify.app/" target="_blank"><b>https://item-vault.netlify.app/</b></a>
+  </strong>
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-18-blue?logo=react&logoColor=white" />
